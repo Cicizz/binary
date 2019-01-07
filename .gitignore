@@ -1,3 +1,50 @@
+storage/
+run/
+test_out/
+tmp/
+doc/
+.directory
+.loadpath
+.metadata
+*.pydevproject
+*.bak
+*.swp
+*.tmp
+*~.nib
+local.properties
+
+
+# Maven #
+#########
+target/
+
+# Eclipse #
+###########
+.project
+.classpath
+.settings/
+.externalToolBuilders/
+*.launch
+.recommenders/
+
+# Intellij #
+############
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Compiled source #
+###################
+*.class
+*.com
+*.dll
+*.exe
+*.o
+*.so
+
+
+=======
 # Compiled class file
 *.class
 
@@ -21,3 +68,4 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+db/
