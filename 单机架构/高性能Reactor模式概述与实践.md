@@ -188,16 +188,16 @@ public class NettyEventExcutor implements Runnable {
                 if(nettyEvent != null && listener != null){
                     switch (nettyEvent.getEventType()){
                         case CONNECT:
-                             /** 业务线程处理 省略**/
+                            /** 业务线程处理 省略**/
                             break;
                         case CLOSE:
-                             /** 业务线程处理 省略**/
+                            /** 业务线程处理 省略**/
                             break;
                         case EXCEPTION:
-							 /** 业务线程处理 省略**/
+                            /** 业务线程处理 省略**/
                             break;
                         case IDLE:
-          					 /** 业务线程处理 省略**/
+                            /** 业务线程处理 省略**/
                             break;
                          default:
                              break;
