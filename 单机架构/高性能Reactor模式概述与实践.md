@@ -31,7 +31,7 @@
 
 #### 单Reactor多线程
 
-![单Reactor多线程](单机架构\单Reactor多线程.png)
+![单Reactor多线程](单Reactor多线程.png)
 
 如图，相对于单Reactor单线程，主要将IO的业务处理剥离出来，单独用子线程池处理业务逻辑。
 
@@ -194,10 +194,10 @@ public class NettyEventExcutor implements Runnable {
                              /** 业务线程处理 省略**/
                             break;
                         case EXCEPTION:
-							  /** 业务线程处理 省略**/
+							 /** 业务线程处理 省略**/
                             break;
                         case IDLE:
-          					  /** 业务线程处理 省略**/
+          					 /** 业务线程处理 省略**/
                             break;
                          default:
                              break;
