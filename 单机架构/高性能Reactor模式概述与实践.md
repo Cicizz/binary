@@ -16,7 +16,7 @@
 
 #### 单Reactor单线程
 
-![单Reactor单线程](E:\project\recode\blog\单机架构\单Reactor单线程.png)
+![单Reactor单线程](单Reactor单线程.png)
 
 可以看出，Reactor主要是监听事件并dispatcher到不同的事件处理器进行处理的。对于单Reactor单线程模式，优点是：
 
@@ -31,7 +31,7 @@
 
 #### 单Reactor多线程
 
-![单Reactor多线程](E:\project\recode\blog\单机架构\单Reactor多线程.png)
+![单Reactor多线程](单机架构\单Reactor多线程.png)
 
 如图，相对于单Reactor单线程，主要将IO的业务处理剥离出来，单独用子线程池处理业务逻辑。
 
@@ -46,7 +46,7 @@ IO读写handler不再处理业务逻辑，只响应事件并将数据交给业�
 
 #### 多Reactor多线程
 
-![多Reactor多线程](E:\project\recode\blog\单机架构\多Reactor多线程.png)
+![多Reactor多线程](多Reactor多线程.png)
 
 多Reactor多线程在netty中使用最多，如果netty的Boss线程（Main Reactor）与Worker（Sub Reactor）都设置了，其内部的IO模型就是多Reactor多线程模式。
 
@@ -89,7 +89,7 @@ IO读写handler不再处理业务逻辑，只响应事件并将数据交给业�
 
 可以看到管理连接就是主要管理的这些事件。如图是实现的Reactor模式来处理连接事件
 
-![系统实现Reactor](E:\project\recode\blog\单机架构\系统实现Reactor.png)
+![系统实现Reactor](系统实现Reactor.png)
 
 主要流程是：
 
