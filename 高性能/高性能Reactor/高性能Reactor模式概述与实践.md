@@ -75,7 +75,7 @@ IO读写handler不再处理业务逻辑，只响应事件并将数据交给业�
 
 对于Netty使用Reactor模型的使用，主要是EventLoopGroup的大小的配置，因为IoT MQ是高并发连接的系统，所以Main Reactor需要设置的更大一些，以处理更多进来的连接。、
 
-####在系统中使用Reactor实现高性能处理
+#### 在系统中使用Reactor实现高性能处理
 
 上面主要介绍了Netty中如何使用Reactor模型处理具体的场景（高并发请求与高并发连接），这里具体分享一个使用Reactor模型的案例。
 
