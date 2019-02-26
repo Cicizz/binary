@@ -6,10 +6,9 @@
 [高性能的那些事儿-缓存设计](/高性能/缓存/高性能的那些事儿-缓存.md "高性能的那些事儿-缓存设计")
 
 ### IoT MQ
+[IoT MQ设计篇：调研与协议选型](/IoTMQ/IoT MQ设计篇：调研与协议选型.md "IoT MQ设计篇：调研与协议选型")
 
-[一、IoT MQ设计篇：调研与协议选型](/IoTMQ/一、IoT MQ设计篇：调研与协议选型.md "IoT MQ设计篇：调研与协议选型")
-
-[二、IoT MQ设计篇：开源or自研，系统复杂度分析](/IoTMQ/二、IoT MQ设计篇：开源or自研.md "IoT MQ设计篇：开源or自研")
+[IoT MQ设计篇：开源or自研，系统复杂度分析](/IoTMQ/IoT MQ设计篇：开源or自研.md "IoT MQ设计篇：开源or自研")
 
 ### RocketMQ
 [RocketMQ是如何实现事务消息的](/RocketMQ/RocketMQ事务消息/RocketMQ是如何实现事务消息的.md "RocketMQ是如何实现事务消息的")
