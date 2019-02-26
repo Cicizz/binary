@@ -6,7 +6,7 @@
 [高性能的那些事儿-缓存设计](/高性能/缓存/高性能的那些事儿-缓存.md "高性能的那些事儿-缓存设计")
 
 ### IoT MQ
-[IoT MQ设计篇：调研与协议选型](/IoTMQ/IoT MQ设计篇：调研与协议选型.md "IoT MQ设计篇：调研与协议选型")
+[IoT MQ设计篇：调研与协议选型](https://www.baidu.com/ "IoT MQ设计篇：调研与协议选型")
 
 [IoT MQ设计篇：开源or自研，系统复杂度分析](/IoTMQ/IoT MQ设计篇：开源or自研.md "IoT MQ设计篇：开源or自研")
 
