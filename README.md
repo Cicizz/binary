@@ -12,6 +12,8 @@
 
 [IoT MQ设计篇：基于开源项目二次开发的坑](/IoTMQ/IoT%20MQ设计篇：基于开源项目二次开发的坑.md "IoT MQ设计篇：基于开源项目二次开发的坑")
 
+[IoT MQ设计篇：最终架构与jmqtt介绍](/IoTMQ/IoT%20MQ设计篇：最终架构与jmqtt介绍.md)
+
 ### RocketMQ
 [RocketMQ是如何实现事务消息的](/RocketMQ/RocketMQ事务消息/RocketMQ是如何实现事务消息的.md "RocketMQ是如何实现事务消息的")
 
