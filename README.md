@@ -14,6 +14,8 @@
 
 [IoT MQ设计篇：最终架构与jmqtt介绍](/IoTMQ/IoT%20MQ设计篇：最终架构与jmqtt介绍.md)
 
+[IoT MQ实现篇：组件选型与插拔式设计](/IoTMQ/IoT%20MQ实现篇：组件选型与插拔式设计.md)
+
 ### RocketMQ
 [RocketMQ是如何实现事务消息的](/RocketMQ/RocketMQ事务消息/RocketMQ是如何实现事务消息的.md "RocketMQ是如何实现事务消息的")
 
