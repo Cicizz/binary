@@ -13,7 +13,7 @@
 
 例如，下面是Jmqtt的项目图：
 
-![](E:\project\record\Record\IoTMQ\jmqtt项目概览图.jpg)
+![](jmqtt项目概览图.jpg)
 
 主要就是按照各个功能进行模块化的，详情参考：https://github.com/Cicizz/jmqtt
 
